@@ -5,9 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:projecte01"
         mc:Ignorable="d"
-        Title="PrimeraInterficie" Height="600" Width="800">
-    <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="283,383,0,0" TextWrapping="Wrap" Text="Hola twin 👅" VerticalAlignment="Top"/>
-        <Button Content="Touch me twin 💕" HorizontalAlignment="Left" Margin="268,404,0,0" VerticalAlignment="Top"/>
-    </Grid>
+        Title="PrimeraInterficie" Height="600" Width="525">
+    <StackPanel>
+        <Label Content="Nom: "></Label>
+        <TextBox Width="523" Height="30" Text="{Binding Path=nom, Mode=TwoWay}"></TextBox>
+        <Label Content="Cognom: "></Label>
+        <TextBox Width="523" Height="30" Text="{Binding Path=nom, Mode=TwoWay}"></TextBox>
+        <Label Content="Nom Complert: "></Label>
+        <TextBox Width="523" Height="30" Text="{Binding Path=nom, Mode=TwoWay}"></TextBox>
+        
+    </StackPanel>
 </Window>
